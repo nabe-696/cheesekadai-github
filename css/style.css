@@ -1,0 +1,524 @@
+/* ここから下に記載していく */
+body {
+  width: 1200px;
+  
+}
+p {
+  font-size: 16px;
+  padding-bottom: 10px;
+  font-family: serif;
+}
+h6 {
+  font-size: 18px;
+  padding-bottom: 60px;
+}
+h3 {
+  font-size: 24px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: rgba(127, 127, 13, 0.622);
+  font-weight: bold;
+}
+h4 {
+  font-size: 24px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.logo {
+  
+  display: flex;
+  justify-content: left;
+}
+
+#header {
+  display: flex;
+}
+
+.main_p {
+
+  background-image: url(../img/main00.jpg);
+  width: 100%;
+  height: 300px;
+  /* display: flex; */
+  text-align: center;
+}
+
+.ineer {
+  text-align: center;
+  color: aliceblue; 
+  padding-top: 100px;
+  /* align-items: center; */
+  
+}
+
+.ineer p {
+  font-size: 23px;
+}
+  
+
+
+
+  
+li {
+    display: inline;
+    
+    display: block;
+    /* padding: 50px 50px 50px 50px ; */
+    margin: 50px 50px 50px 0px;
+    
+  }
+
+.navi {
+  display: flex;
+  padding-left: 300px;
+  
+}  
+
+.navi-1:hover {
+  
+  font-weight: bold;
+}
+
+.navi-2:hover {
+  font-weight: bold;
+}
+
+.navi-3:hover {
+  font-weight: bold;
+}
+
+.navi-4:hover {
+  font-weight: bold;
+}
+
+.navi-5:hover {
+  font-weight: bold;
+}
+
+  main {
+    text-align: center;
+  }
+
+#about {
+  padding-top: 60px;
+}
+
+.p1 {
+  padding-bottom: 40px;
+}
+.p2 {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.p3 {
+  padding-bottom: 80px;
+}
+
+.slide {
+  margin-top: 100px;
+}
+.slideshow {
+   width: 60%; 
+   list-style-type: none;
+   position: relative;
+   
+   left: 400px;
+   bottom: 360px;
+
+
+  }
+  
+  .slideshow > li {
+   opacity: 0;
+   position: absolute;
+   transition: opacity 3s ease-in-out; 
+  }
+  
+  .slideshow > li.showSlide{
+   opacity: 1;
+  }
+  
+  .slideshow > li > img {
+   width : 100%;
+   height: auto;
+  }
+  
+
+/* ここからcourse */
+/* #course {
+  /* padding-top: 400px; */
+ 
+.content {
+  padding-bottom: 300px;
+}  
+
+.course-p {
+  padding-bottom: 80px;
+  line-height: 30px;
+  height: 20px;
+  
+}
+
+.aboutimg2 {
+  display: inline-block;
+ 
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.all_course1 {
+  display: flex;
+  justify-content: end;
+  width: 1200px;
+  height: 400px;
+  background-color: rgb(240, 240, 234);
+  margin: 0 auto;
+  
+}
+
+.farm-p {
+  
+  width: 600px;
+  margin: 0 auto;
+  height: 400px;
+}
+
+.farm-p img {
+  width: 100%;
+  object-fit: cover;
+} 
+
+.farm-e {
+  width: 600px;
+  align-items: center;
+  height: 400px;
+}
+
+.farm-e h5 {
+  text-align: left;
+  padding: 120px 50px 40px 50px;
+}
+
+.farm-e p {
+  text-align: left;
+  padding: 0px 50px 120px 50px;
+  line-height: 30px;
+}
+
+
+
+
+.all_course2 {
+  display: flex;
+  justify-content: end;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(240, 240, 234);
+}
+
+.teacher-e {
+  width: 600px;
+  height: 400px;
+}
+
+.teacher-e h5 {
+  text-align: left;
+  padding: 120px 50px 40px 50px;
+}
+
+.teacher-e p {
+
+  text-align: left;
+  padding: 0px 50px 120px 50px;
+  line-height: 30px;
+
+}
+.teacher-p {
+  width: 600px;
+  height: 400px;
+
+}
+
+.teacher-p img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.all_course3 {
+  display: flex;
+  justify-content: end;
+  background-color: rgb(240, 240, 234);
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.people-p {
+  width: 600px;
+  height: 400px;
+
+}
+
+.people-p img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.people-e {
+  width: 600px;
+  height: 400px;
+
+}
+
+.people-e h5 {
+  text-align: left;
+  padding: 120px 50px 40px 50px;
+}
+
+.people-e p {
+  text-align: left;
+  padding: 0px 50px 120px 50px;
+  line-height: 30px;
+
+}
+
+
+/* ここからピザニュース */
+.pizza-p {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;  
+  width: 100%;
+  
+}
+
+.pizza-p1:hover {
+  background-color: antiquewhite;
+}
+
+.pizza-p2:hover {
+  background-color: antiquewhite;
+}
+
+.pizza-p3:hover {
+  background-color: antiquewhite;
+}
+
+.pizza-p p {
+  text-align: left;
+  padding: 10px 30px 10px 22px;
+  line-height: 20px;
+}
+
+
+.course1 p{
+  text-align: center;
+  line-height: 30px;
+}
+
+.more {
+  
+  background-color: aqua;
+  width: 300px;
+  height: 50px;
+  display: inline-block;
+  justify-content: center;
+  padding-top: 25px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  
+}
+
+
+.more:hover {
+  background-color: cadetblue;
+}
+.button {
+  color: aliceblue;
+  text-align: center;
+  font-size: 26px;
+}
+
+
+/* ここからアクセス(ちず) */
+
+.content-access {
+  background-color: rgba(220, 220, 220, 0.453);
+  padding: 20px 0px 60px 0px ;
+  
+}
+
+.map-e {
+  display: flex;
+  justify-content: center;
+}
+
+.content-access p {
+  line-height: 50px;
+  padding-top: 60px;
+  padding-left: 50px;
+  
+  text-align: left;
+  
+  
+
+}
+
+
+
+/* ここからコンタクト */
+
+.content-contact {
+  padding-bottom: 70px;
+}
+
+.contact-p {
+  padding-bottom: 30px;
+}
+
+.contact-table {
+  width: 50%;
+  margin-bottom: 20px;
+  /* display: flex;
+  justify-content: space-between; */
+  margin-left: 26%;
+}
+
+.contact-body {
+  padding: 20px;
+  border: 2px solid rgba(106, 97, 97, 0.367);
+  width: 600px;
+}
+.contact-item {
+  text-align: left;
+  width: 300px;
+  background-color: beige;
+  padding-left: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  vertical-align: middle;
+}
+
+.form-select {
+  width: 320px;
+  padding: 5px;
+  border: 1px solid rgb(196, 187, 187);
+}
+.contact-wish {
+  display: block;
+}
+
+.contact-submit {
+  width: 200px;
+  background-color: rgb(116, 116, 35);
+  color: aliceblue;
+  font-weight: bold;
+  display: block;
+  border: none;
+  padding: 16px;
+  margin: auto;
+}
+.form {
+  justify-content:flex-start ;
+}
+.form-text {
+  height: 30px;
+  color: rgb(8, 8, 8);
+  font-size: 14px;
+}
+
+/* 送信ボタン */
+.contact-submit {
+  width: 300px;
+  background-color: aqua;
+  color: aliceblue;
+  font-weight: bold;
+  height: 50px;
+  display: block;
+  border: none;
+  padding-bottom: 60px;
+  font-size: 26px;
+  margin-bottom: 140px;
+}
+
+.contact-submit:hover {
+  background-color: cadetblue;
+}
+/* ここからSNS */
+
+.wrapper {
+  cursor: url(../img/about_00.jpg),auto;
+  height: auto;
+}
+
+#sns {
+  background-color: rgba(255, 228, 196, 0.335);
+  padding: 4% 10%;
+}
+
+#sns .wrapper {
+  
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#sns .sub-title {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.sub-title {
+  font-size: 20px;
+  color: rgb(39, 39, 133);
+  font-weight: bold;
+}
+.sns-box {
+  width: 30%;
+}
+
+.twitter-timeline {
+  padding-left: 36px;
+}
+
+.wrapper {
+  cursor: url(../img/about_00.jpg),auto;
+}
+
+
+
+/* ここからフッター */
+
+#fotter {
+  background-color: rgb(133, 142, 133);
+  height: 100px;
+  border-top: solid 1px lightgray;
+}
+
+#fotter p {
+  color: rgb(251, 252, 252);
+  text-align: center;
+  /* align-items: center; */
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
